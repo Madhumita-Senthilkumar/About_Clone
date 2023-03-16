@@ -1,0 +1,23 @@
+body
+{
+  margin-top: 0%;
+	background-color: #fcf5eb;
+  font-size: 17;
+  font-family: Helvetica;
+}
+img
+{
+	margin-top: 0%;
+	margin-left:0%;
+	width: 180px;
+}
+.navbar
+{
+  padding-right: 0px;
+  padding-bottom: 3px;
+  padding-top: 0%;
+}
+a.one
+{
+ padding-left: 200px;
+}
