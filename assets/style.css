@@ -555,4 +555,42 @@ background-color: #111b21  ;
         position: unset;
         width:100%;
     }
+    .hbutt
+    {
+        color: #111b21;
+        display: block;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 120%;
+        background: none;
+        border:0;cursor: pointer;
+        margin:0;
+    }
+    .center
+    {
+        z-index: 1;
+        font-size: 16px;
+        line-height: 120%;
+        font-weight: 400;
+    }
+    .wcenter
+    {
+        cursor: pointer;
+        text-decoration: none;
+    }
+    .wimg
+    {
+        width: 100px;
+        border: 0;
+        justify-content: center;
+    }
+    .left1
+    {
+        cursor: pointer;
+    }
+    .down 
+    {
+        background-color: #111b21;
+        border-radius: 6px;
+    }
 }
