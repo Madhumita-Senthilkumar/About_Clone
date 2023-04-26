@@ -70,6 +70,7 @@ ul
     font-size: 16px;
     font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif ;
 }
+
 .all1_2 
 {
     cursor: pointer;
@@ -222,7 +223,7 @@ ul
 .all1_svg
 {
     cursor: pointer;
-    transform: rotate(0deg);
+
 }
 .onho
 {
@@ -520,4 +521,11 @@ background-color: #111b21  ;
 .col3_2
 {
     text-decoration: none;
+}
+@media only screen and (max-width: 600px)
+{
+    .nav_bar
+    {
+        display: none;
+    }
 }
