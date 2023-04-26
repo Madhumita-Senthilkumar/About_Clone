@@ -9,6 +9,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+.nom
+{
+    display: none;
+}
 .nav_bar
 {backdrop-filter: blur(4px);
     top:0%;
@@ -527,5 +531,28 @@ background-color: #111b21  ;
     .nav_bar
     {
         display: none;
+    }
+    .nom
+    {
+        background-color: #ffffff;
+        align-items: center;
+        display: flex;
+        height:64px;
+        justify-content: center;
+        max-width: 100%;
+        min-width: 100%;
+        position: fixed;
+        top:0;
+        z-index: 1000;
+    }
+    .nom1
+    {
+        align-items: center;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        padding:0 24px;
+        position: unset;
+        width:100%;
     }
 }
