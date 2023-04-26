@@ -538,6 +538,7 @@ background-color: #111b21  ;
         align-items: center;
         display: flex;
         height:64px;
+        left:0;
         justify-content: center;
         max-width: 100%;
         min-width: 100%;
@@ -592,5 +593,40 @@ background-color: #111b21  ;
     {
         background-color: #111b21;
         border-radius: 6px;
+    }
+    .body1
+    {
+        display: block;
+    }
+    .body3
+    {
+        border-bottom-color:#111b21;
+        border-bottom: 40px;
+        border-bottom-style:solid ;
+        background-color:#fff ;
+        overflow: hidden;
+        display: block;
+    }
+    .body_margin
+    {
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+        max-width: 1080px;
+        padding: 0 24px;
+        display: block;
+    }
+    .tit
+    {
+        font-size: 14px;
+        letter-spacing: -1px;
+        line-height: 1;
+        font-weight: 400;
+        color:inherit;
+        padding-top: 2px;
+        padding-bottom: 16px;
+    }
+    .dh1{
+        font-size: 25px;
     }
 }
